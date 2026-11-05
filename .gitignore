@@ -1,0 +1,27 @@
+# 源码包 / 构建产物（含第三方代码，不入库）
+*.zip
+*.tgz
+*.7z
+*.tar.gz
+
+# 依赖
+node_modules/
+
+# 凭据与敏感信息
+.credentials.yaml
+.env
+.env.*
+*.key
+*.pem
+*_secret*
+*.log
+
+# 本地工具与临时文件
+.workbuddy/
+_work*/
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
